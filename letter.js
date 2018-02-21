@@ -1,5 +1,3 @@
-
-
 var Letter = function(char) {
     this.char = char; //underlying character
     this.beenGuessed = false;

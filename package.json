@@ -1,0 +1,22 @@
+{
+  "name": "hangman_cli",
+  "version": "1.0.0",
+  "description": "A simple hangman game for the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamtheozzy/hangman_CLI.git"
+  },
+  "author": "Ozzy Cardenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamtheozzy/hangman_CLI/issues"
+  },
+  "homepage": "https://github.com/iamtheozzy/hangman_CLI#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
+}
