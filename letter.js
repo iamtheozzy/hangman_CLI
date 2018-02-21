@@ -7,14 +7,14 @@ var Letter = function(char) {
       if (this.beenGuessed === true) {
         return this.char;
       } else {
-        return ("_")
+        return ("_");
       }
-    }
+    };
     this.compare = function(guessed) {
       if (guessed === this.char) {
         this.beenGuessed = true;
         return;
-      };
+      }
     };
 };
 

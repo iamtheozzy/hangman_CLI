@@ -21,8 +21,10 @@ var Word = function(input) {
     };
 };
 
-var Ozzy = new Word("RAGE AGAINST THE MACHINE");
-// console.log(Ozzy.word)
-console.log(Ozzy.string());
-console.log("-----------------")
-console.log(Ozzy.check("a"));
+module.exports = Word;
+
+// var Ozzy = new Word("RAGE AGAINST THE MACHINE");
+// // console.log(Ozzy.word)
+// console.log(Ozzy.string());
+// console.log("-----------------")
+// console.log(Ozzy.check("a"));
