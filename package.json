@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/iamtheozzy/hangman_CLI#readme",
   "dependencies": {
-    "inquirer": "^5.1.0"
+    "inquirer": "^5.1.0",
+    "prompt": "^1.0.0"
   }
 }
