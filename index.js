@@ -21,6 +21,11 @@ var startGame = function() {
         guessesLeft--;
         if(guessesLeft === 0){
           console.log("Out of guesses homie!!!")
+        } else if (!randomWord.notFinished()){
+          console.log("WINNER WINNER CHICKEN DINNER!!!");
+        } else {
+          console.log("You have " + guessesLeft + "guesses left!");
+          startGame();
         }
     });
 }
