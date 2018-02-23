@@ -19,6 +19,26 @@ var Word = function(input) {
       };
       return this.string();
     };
+    // this.winningState = function(){
+    //   for(var i  = 0; i < this.word.length; i++){
+    //     if(this.word[i].beenGuessed === true){
+    //       return true;
+    //     } else {
+    //       return false;
+    //     }
+    //   };
+    // };
+
+    this.notFinished = function() {
+      var stillNeedsGuessing = false;
+      for (var i = 0; i < this.word.length; i++) {
+        if (this.word[i].display() == "_") {
+          stillNeedsGuessing = true;
+          break;
+        };
+      };
+      return stillNeedsGuessing;
+    };
 };
 
 module.exports = Word;

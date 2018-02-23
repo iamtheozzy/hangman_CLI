@@ -12,7 +12,7 @@ var Letter = function(char) {
       if (guessed === this.char) {
         this.beenGuessed = true;
         return;
-      }
+      };
     };
 };
 
